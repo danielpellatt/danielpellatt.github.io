@@ -1,0 +1,9 @@
+# Site settings
+title: Daniel Pellatt
+baseurl: "danielpellatt.github.io  " # the subpath of your site, e.g. /blog/
+url: "https://danielpellatt.github.io" # the base hostname & protocol for your site
+github_username:  danielpellatt
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:title:output_ext
