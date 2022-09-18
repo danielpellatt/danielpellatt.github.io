@@ -5,7 +5,7 @@ baseurl: "danielpellatt.github.io  " # the subpath of your site, e.g. /blog/
 url: "https://danielpellatt.github.io" # the base hostname & protocol for your site
 github_username:  danielpellatt
 
-theme: tactile
+remote_theme: pages-themes/tactile@v0.2.0
 
 # Build settings
 markdown: kramdown
