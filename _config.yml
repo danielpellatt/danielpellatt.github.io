@@ -1,6 +1,5 @@
 # Site settings
-title: null
-baseurl: "danielpellatt.github.io" # the subpath of your site, e.g. /blog/
+title: Daniel Pellatt
 url: "https://danielpellatt.github.io" # the base hostname & protocol for your site
 
 theme: jekyll-theme-minimal
