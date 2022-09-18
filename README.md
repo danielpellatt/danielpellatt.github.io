@@ -8,4 +8,4 @@
 email: dpellatt@ucsd.edu
 
 
-[Research](research.md)  |    [CV](cv.md)   |    [Teaching](teaching.md)
+[Research](research.md)  |    [CV]({{ site.url }}/assets/pdf/resume.pdf)   |    [Teaching](teaching.md)
