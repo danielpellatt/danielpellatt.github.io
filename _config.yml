@@ -1,6 +1,5 @@
 # Site settings
-name: Daniel Pellatt
-title: null
+title: Daniel Pellatt
 baseurl: "danielpellatt.github.io  " # the subpath of your site, e.g. /blog/
 url: "https://danielpellatt.github.io" # the base hostname & protocol for your site
 github_username:  danielpellatt
