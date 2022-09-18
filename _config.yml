@@ -4,6 +4,9 @@ url: "https://danielpellatt.github.io" # the base hostname & protocol for your s
 
 theme: jekyll-theme-minimal
 
+github:
+  is_project_page: false
+
 # Build settings
 markdown: kramdown
 permalink: /:year/:title:output_ext
