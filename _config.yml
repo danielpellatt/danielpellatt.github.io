@@ -2,7 +2,7 @@
 title: Daniel Pellatt
 url: "https://danielpellatt.github.io" # the base hostname & protocol for your site
 description: |+
-  I am a Ph.D. candidate in Economics at the University of California, San Diego. My field of research is econometrics. I am available for interviews on the 2022-2023 job market.        You can reach me at dpellatt@ucsd.edu
+  I am a Ph.D. candidate in Economics at the University of California, San Diego. My field of research is econometrics.<br>I am available for interviews on the 2022-2023 job market.<br><br>You can reach me at <b>dpellatt@ucsd.edu</b>
 
 theme: jekyll-theme-minimal
 
