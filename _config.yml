@@ -1,7 +1,7 @@
 # Site settings
 title: Daniel Pellatt
 url: "https://danielpellatt.github.io" # the base hostname & protocol for your site
-logo: headshot.jpeg
+logo: assets/images/headshot.jpeg
 description: 
   "email: dpellatt@ucsd.edu"
 
