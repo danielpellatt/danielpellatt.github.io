@@ -1,4 +1,4 @@
-[Home](README.md)  |    [CV](cv.md)   |    [Research](research.md)
+[Home](README.md)    |    [Research](research.md)
 
 # Teaching
 
