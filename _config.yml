@@ -4,6 +4,9 @@ url: "https://danielpellatt.github.io" # the base hostname & protocol for your s
 
 theme: jekyll-theme-minimal
 
+social:
+  email: dpellatt@ucsd.edu
+
 github:
   is_user_page: false
 
