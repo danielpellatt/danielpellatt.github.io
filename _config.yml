@@ -1,11 +1,11 @@
 # Site settings
 title: Daniel Pellatt
 url: "https://danielpellatt.github.io" # the base hostname & protocol for your site
+description: 
+  "email: dpellatt@ucsd.edu"
 
 theme: jekyll-theme-minimal
 
-social:
-  email: dpellatt@ucsd.edu
 
 github:
   is_user_page: false
