@@ -1,16 +1,16 @@
 # Site settings
 title: Daniel Pellatt
-url: "https://danielpellatt.github.io" # the base hostname & protocol for your site
+url: "https://danielpellatt.github.io"
 description: |+
-  I recently obtained my Ph.D. in Economics from the University of California San Diego. My field of research is econometrics.<br><br><br>You can reach me at <b>dpellatt@ucsd.edu</b>
+  Econometrics PhD applying statistical modeling, empirical research, and reproducible Python workflows to finance, data science, and applied analytical problems.<br><br>
+  Based in San Jose, CA. Currently exploring quantitative research, model risk, data science, and startup roles.<br><br>
+  You can reach me at <b>YOUR_EMAIL</b> or on <a href="YOUR_LINKEDIN_URL">LinkedIn</a>.
 
 theme: jekyll-theme-minimal
-
 
 github:
   is_user_page: false
 
-# Build settings
 markdown: kramdown
 permalink: /:year/:title:output_ext
 powered_by: false
