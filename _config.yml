@@ -4,13 +4,14 @@ url: "https://danielpellatt.github.io"
 description: |+
   PhD Economist focused on quantitative research, applied analytics, decision science, and statistical modeling.<br><br>
   Currently based in San Jose, CA and open to relocation and remote opportunities.<br><br>
-  Connect on <a href="https://www.linkedin.com/in/daniel-pellatt-phd-73562525a/">LinkedIn</a> or email <b>danielpellatt@gmail.com</b>.
+  <a href="https://www.linkedin.com/in/daniel-pellatt-phd-73562525a/">LinkedIn</a> | <a href="mailto:danielpellatt@gmail.com">Email</a>
 
 theme: jekyll-theme-minimal
 
 github:
   is_user_page: false
 
+# Build settings
 markdown: kramdown
 permalink: /:year/:title:output_ext
 powered_by: false
