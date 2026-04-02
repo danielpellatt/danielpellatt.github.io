@@ -1,7 +1,24 @@
+<h2>
+  <a href="{{site.url}}/assets/pdfs/resume.pdf">
+    <span style="text-decoration: underline;">Resume</span>
+  </a>
+  <a href="{{site.url}}/research.html">
+    <span style="text-decoration: underline; padding:30px">Publications</span>
+  </a>
+</h2>
 
-<h2> <a href="{{site.url}}/assets/pdfs/resume.pdf"><span style="text-decoration: underline;">CV</span></a><a href="{{site.url}}/research.html"><span style="text-decoration: underline; padding:30px">Research</span></a></h2>
+<h3>Overview</h3>
 
-<img alt="an image of me" src="assets/images/headshot.jpeg" width="auto" height="auto" max-width="50vh">
+<p>
+  I am interested in quantitative research, data science, risk analytics,
+  and related analytical roles.
+</p>
 
+<p>
+  I am especially interested in opportunities where rigorous empirical work,
+  statistical modeling, and decision-oriented analysis are valuable.
+</p>
 
-
+<p>
+  A public project page and code links will be added soon.
+</p>
