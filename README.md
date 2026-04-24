@@ -17,5 +17,6 @@
 </p>
 
 <p>
-  A public project page and code links will be added soon.
+I recently completed an independent Python project building a point-in-time data pipeline, predictive modeling workflow, and backtesting framework for cross-sectional equity return prediction and portfolio construction. The <a href="/project.html">project page</a> summarizes the workflow, selected findings, supporting materials, and links to the public code repository.
 </p>
+

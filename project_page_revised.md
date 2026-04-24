@@ -336,7 +336,6 @@ The public repository will not include raw Sharadar data or derived proprietary 
 
 It will include the synthetic-data demo path, the core pipeline structure, and documentation around the point-in-time panel, feature construction, rolling estimation, and evaluation layers. For readers who want a bit more model detail, I have also included a [supplementary model note (PDF)](assets/pdfs/Supplementary_model_note.pdf) and the [supplemental results workbook](assets/regression%20results/equity_pipeline_results_supplement.xlsx).
 
-Public GitHub repository link coming soon.
 
 ## References
 
