@@ -2,16 +2,54 @@
 layout: default
 ---
 
-<h2>
-  <a href="/"><span style="text-decoration: underline;">Home</span></a>
-  <a href="/assets/pdfs/resume.pdf">
-    <span style="text-decoration: underline; padding:30px">Resume</span>
-  </a>
-  <a href="/research.html">
-    <span style="text-decoration: underline; padding:30px">Publications</span>
-  </a>
-</h2>
+<style>
+  /* This page uses the minimal Jekyll theme, whose default desktop layout
+     reserves a narrow sidebar for the site title/bio.  For the project page,
+     I suppress that sidebar and let the research writeup, tables, and figures
+     use the full content width. */
+  .wrapper {
+    width: min(1180px, calc(100% - 44px));
+    max-width: 1180px;
+    margin: 0 auto;
+  }
 
-<h1>Project</h1>
+  .wrapper > header,
+  .wrapper > footer {
+    display: none;
+  }
 
-<p>Public summary and repository link coming soon.</p>
+  .wrapper > section {
+    width: 100%;
+    max-width: none;
+    float: none;
+    padding-bottom: 40px;
+  }
+
+  @media print, screen and (max-width: 960px) {
+    .wrapper {
+      width: auto;
+      max-width: none;
+      margin: 0;
+    }
+
+    .wrapper > section {
+      width: auto;
+      float: none;
+      position: static;
+    }
+  }
+</style>
+
+<nav class="site-nav" aria-label="Primary">
+  <a href="/">Home</a>
+  <a href="/assets/pdfs/resume.pdf">Resume</a>
+  <a href="/project.html" aria-current="page">Project + Code</a>
+  <a href="/research.html">Publications</a>
+</nav>
+
+<div class="project-page">
+  {% capture project_content %}
+  {% include_relative project_page_revised.md %}
+  {% endcapture %}
+  {{ project_content | markdownify }}
+</div>

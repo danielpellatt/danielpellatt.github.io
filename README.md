@@ -1,11 +1,8 @@
-<h2>
-  <a href="{{site.url}}/assets/pdfs/resume.pdf">
-    <span style="text-decoration: underline;">Resume</span>
-  </a>
-  <a href="{{site.url}}/research.html">
-    <span style="text-decoration: underline; padding:30px">Publications</span>
-  </a>
-</h2>
+<nav class="site-nav" aria-label="Primary">
+  <a href="/assets/pdfs/resume.pdf">Resume</a>
+  <a href="/project.html">Project + Code</a>
+  <a href="/research.html">Publications</a>
+</nav>
 
 <h3>Overview</h3>
 
