@@ -2,7 +2,7 @@
 
 *Independent implementation and extension of Kim, Korajczyk, and Neuhierl (2021), using Sharadar point-in-time data, rolling portfolio formation, and out-of-sample evaluation.*
 
-**Code:** Public GitHub repository link coming soon  
+**Code:** [Public GitHub repository](https://github.com/danielpellatt/Arbitrage-Portfolios-Project)  
 **Data note:** Full replication requires licensed [Sharadar](https://data.nasdaq.com/publishers/SHARADAR) / Nasdaq Data Link data, which are not redistributed. The public repository includes a synthetic demo path to illustrate pipeline functionality and repository structure, rather than to reproduce the project’s empirical results.  
 **Detailed results:** [supplemental results workbook](assets/regression%20results/equity_pipeline_results_supplement.xlsx)  
 **Model note:** [supplementary model note (PDF)](assets/pdfs/Supplementary_model_note.pdf)  
