@@ -4,7 +4,6 @@
 
 **Code:** [Public GitHub repository](https://github.com/danielpellatt/Arbitrage-Portfolios-Project)  
 **Data note:** Full replication requires licensed [Sharadar](https://data.nasdaq.com/publishers/SHARADAR) / Nasdaq Data Link data, which are not redistributed. The public repository includes a synthetic demo path to illustrate pipeline functionality and repository structure, rather than to reproduce the project’s empirical results.  
-**Detailed results:** [supplemental results workbook](assets/regression%20results/equity_pipeline_results_supplement.xlsx)  
 **Supplementary materials:** [Detailed results workbook](assets/regression%20results/equity_pipeline_results_supplement.xlsx) · [Model note (PDF)](assets/pdfs/Supplementary_model_note.pdf)  
 **Related papers:** [Kim, Korajczyk, and Neuhierl (2021)](https://academic.oup.com/rfs/article-abstract/34/6/2813/5902462) · [Non-gated version](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3263001) · [Freyberger, Neuhierl, and Weber (2020)](https://academic.oup.com/rfs/article-abstract/33/5/2326/5821383)
 
