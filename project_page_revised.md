@@ -335,9 +335,9 @@ Taken together, the results show the value of the pipeline as a research tool: i
 
 ## Public code and data note
 
-The public repository will not include raw Sharadar data or derived proprietary panel artifacts.
+The public repository does not include raw Sharadar data or derived proprietary panel artifacts.
 
-It will include the synthetic-data demo path, the core pipeline structure, and documentation around the point-in-time panel, feature construction, rolling estimation, and evaluation layers. For readers who want a bit more model detail, I have also included a [supplementary model note (PDF)](assets/pdfs/Supplementary_model_note.pdf) and the [supplemental results workbook](assets/regression%20results/equity_pipeline_results_supplement.xlsx).
+It includes the synthetic-data demo path, the core pipeline structure, and documentation around the point-in-time panel, feature construction, rolling estimation, and evaluation layers. For readers who want a bit more model detail, I have also included a [supplementary model note (PDF)](assets/pdfs/Supplementary_model_note.pdf) and the [supplemental results workbook](assets/regression%20results/equity_pipeline_results_supplement.xlsx).
 
 
 ## References
