@@ -38,7 +38,7 @@ At each month-end, Layer D forms portfolios only with information that would hav
 
 This is a [Sharadar](https://data.nasdaq.com/publishers/SHARADAR)-based independent implementation, not a literal CRSP/Compustat reproduction of Kim et al. The goal is to preserve trading-date timing while using a different point-in-time data source.
 
-The panel is large enough for rolling cross-sectional portfolio formation: 15,381 securities, 36.89 million daily security observations, and 1.77 million price-present firm-months from 1998-01 to 2026-02. After the history, feature-completeness, forward-return, volume, and baseline market-cap screens, the headline Kim-style reproduction universe contains 934,751 stock-months, averaging 3,350 stocks per month across 279 monthly portfolio formations. The stricter NYSE-referenced 10th-percentile screen used later for implementation-aware comparisons contains 667,688 stock-months and averages 2,393 stocks per month, a 28.6% reduction relative to the baseline universe.
+The panel is large enough for rolling cross-sectional portfolio formation: 15,381 securities, 36.89 million daily security observations, and 1.77 million price-present firm-months from 1998-01 to 2026-02. After the history, feature-completeness, volume, and baseline market-cap screens, the headline Kim-style reproduction universe contains 934,751 stock-months, averaging 3,350 stocks per month across 279 monthly portfolio formations. The stricter NYSE-referenced 10th-percentile screen used later for implementation-aware comparisons contains 667,688 stock-months and averages 2,393 stocks per month, a 28.6% reduction relative to the baseline universe.
 
 Key design choices:
 
@@ -331,7 +331,7 @@ The positive result is the reproduction: a point-in-time Python pipeline recover
 
 The negative result is also informative: once the same pipeline is asked a harder implementation question, simple XGBoost replacements for the alpha step do not deliver a robust net-of-cost improvement. In this setting, prediction and implementation are intertwined; turnover, exposure constraints, and a simple spread-cost rule materially change the ranking.
 
-That is an outcome I would want the research pipeline to produce. It confirms a published phenomenon, makes the implementation caveat visible, and keeps the weaker extension result in the record rather than forcing a more favorable conclusion than the holdout supports.
+Taken together, the results show the value of the pipeline as a research tool: it reproduces the published phenomenon, makes the implementation caveat measurable, and records the weaker extension result rather than overstating what the holdout supports.
 
 ## Public code and data note
 
